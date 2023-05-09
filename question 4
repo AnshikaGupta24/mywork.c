@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    float tempC, F;
+    printf("ENTER THE TEMPERATURE IN CELCIUS");
+    scanf("%f", &tempC);
+    F= tempC*9/5+32;
+    printf("TEMP IN FAHRENHEIT=%f\n", F);
+
+
+    return 0;
+}
