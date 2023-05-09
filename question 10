@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int E,M,H,B,C, per;
+    printf("enter marks of five subjects");
+    scanf("%d %d %d %d %d", &E,&M, &H, &B , &C);
+    per=(E+M+H+B+C)*100/500;
+    if(per>90 && per<100)
+    printf("GRADE A");
+    else if(per>80 && per<90)
+    printf("GRADE B");
+    else if(per>60 && per<80)
+    printf("GRADE C");
+    else
+    printf("GRADE D");
+   return 0;
+}
