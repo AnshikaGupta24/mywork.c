@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+int E,M,B,H,C,sum,per;
+printf("enter the marks of five subjects");
+scanf("%d %d %d %d %d", &E, &M,&B,&H, &C);
+sum= E+M+B+H+C;
+per=(E+M+B+H+C)*100/500;
+printf("%d \n %d", sum, per);
+
+
+
+    return 0;
+}
