@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include<math.h>
+
+int main()
+{
+int SI,CI, p=100, amt=500, r=2, t=4;
+SI= (p*r*t)/100;
+printf(" SI= %d", SI);
+
+
+    return 0;
+}
