@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage1</title>
+</head>
+<body>
+    <form>
+        <H3><U><b>INFORMATION FORM</b></U></H3>
+       <h5><u>Enter the information of the Patient:</u></h5>
+        <input type="text" placeholder="enter your name"><br><BR>
+        <input type="text" placeholder="enter your age"><br><BR>
+        SELECT YOUR GENDER:-<BR>
+        <input type="radio" value="male">male<br>
+        <input type="radio" value="female">female<br>
+        <input type="radio" value="trans">trans<br><BR>
+
+
+        SELECT THE DISEASE:-<BR>
+        <select name ="disease">
+            <option value="select">select</option>
+            <option value="FEVER">FEVER</option>
+            <option value="COUGH n COLD">COUGH n COLD</option>
+            <option value="BODY PAIN">BODY PAIN</option>
+
+        </select><BR>
+
+       <br><br> ENTER YOUR CONTACT DETAILS:-<br><br>
+        <input type="text" placeholder="enter your number">
+        <br>
+        <input type="text" placeholder="address">
+        <br>
+        <br>
+        <textarea name="feedback" placeholder="add your valuable feedback here."></textarea>
+        <br>
+        <br>
+        <input type="submit" value="submit">
+        
+    
+        </form>
+        
+    
+        
+</body>
+</html>
