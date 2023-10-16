@@ -1,0 +1,24 @@
+*{
+     text-align:center;
+}
+h3{
+    color: blue;
+}
+h5{
+    color: rgb(99, 99, 199);
+}
+.gender{
+    color: red;
+}
+.enter{
+    color: rgb(196, 95, 95);
+}
+textarea{
+    color:rgb(247, 28, 28);
+}
+*{
+    background-color: white;
+}
+select{
+    color:rgb(247, 28, 28);
+}
